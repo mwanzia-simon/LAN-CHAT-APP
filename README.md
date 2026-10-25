@@ -1,4 +1,4 @@
-# Python LAN Chat App 
+# LAN CHAT APP 
 
 A beginner-friendly, terminal-based chat application built with Python and TCP sockets. This project demonstrates how computers communicate over a Local Area Network (LAN) using a client-server architecture.
 
@@ -89,7 +89,7 @@ Use this application only on networks where you have permission to connect and c
 
 ##  Project Status
 
-**In Development** 🚧
+**In Development** 
 
 More features and documentation will be added as development progresses.
 
