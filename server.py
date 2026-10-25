@@ -18,6 +18,9 @@ server_socket.listen()
 client_socket,client_address = server_socket.accept()
 print(f"Connected to: {client_address}")
 
+message = client_socket.recv(1024)
+print(f"Client says: {message.decode()}")
+
 
 client_socket.close()
 server_socket.close()
