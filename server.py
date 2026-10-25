@@ -21,5 +21,7 @@ while True:
     client_socket.send(reply.encode())
 
 
+print("Client Disconnected!")
 client_socket.close()
 server_socket.close()
+print("Server shut down!")
