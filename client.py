@@ -8,5 +8,5 @@ print("TCP client socket created succesifully!")
 client_socket.connect(("127.0.0.1",5600))
 print("Connected to the server succesifully!")
 
-message = "Hello from the client!"
+message = input("YOU: ")
 client_socket.send(message.encode())
