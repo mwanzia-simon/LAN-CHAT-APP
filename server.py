@@ -17,3 +17,7 @@ server_socket.listen()
 
 client_socket,client_address = server_socket.accept()
 print(f"Connected to: {client_address}")
+
+
+client_socket.close()
+server_socket.close()
