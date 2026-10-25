@@ -10,3 +10,5 @@ print("Connected to the server succesifully!")
 while True:
     message = input("YOU: ")
     client_socket.send(message.encode())
+    reply = client_socket.recv(1024)
+    print("SERVER: ",reply.decode())
