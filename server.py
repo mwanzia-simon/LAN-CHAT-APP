@@ -14,3 +14,6 @@ print("TCP socket created succesifully!")
 server_socket.bind(("127.0.0.1",5600))
 
 server_socket.listen()
+
+client_socket,client_address = server_socket.accept()
+print(f"Connected to: {client_address}")
