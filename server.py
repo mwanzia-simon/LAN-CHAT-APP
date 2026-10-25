@@ -9,3 +9,6 @@ server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # socket.SOCK_STREAM - selects a stream socket which well use for TCP
 
 print("TCP socket created succesifully!")
+
+# Binding the server to an IP address and Port
+server_socket.bind(("127.0.0.1",5600))
