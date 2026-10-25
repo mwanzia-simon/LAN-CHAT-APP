@@ -12,3 +12,5 @@ print("TCP socket created succesifully!")
 
 # Binding the server to an IP address and Port
 server_socket.bind(("127.0.0.1",5600))
+
+server_socket.listen()
