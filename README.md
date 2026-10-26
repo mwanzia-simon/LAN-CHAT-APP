@@ -95,4 +95,4 @@ More features and documentation will be added as development progresses.
 
 ##  License
 
-A license has not yet been selected. A license can be added once the project’s distribution terms are decided.
+A license has not yet been selected.A license can be added once the project’s distribution terms are decided.
