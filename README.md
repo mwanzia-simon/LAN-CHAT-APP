@@ -2,6 +2,7 @@
 
 A beginner-friendly, terminal-based chat application built with Python and TCP sockets. This project demonstrates how computers communicate over a Local Area Network (LAN) using a client-server architecture.
 
+![banner_image](./docs/lan_chat_app.png)
 
 
 ##  Project Goals
